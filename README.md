@@ -1,4 +1,4 @@
-**coldwallet.html checksum SHA1: 954fc1774cf3c3ca9e578f97abee3d531f410666**
+**coldwallet.html checksum SHA1: d74bc179d9dd5ec9a93badbbdc0addb946ce9af9**
 
 ## Tutorial: How to securely store XRP on a paper wallet
 
