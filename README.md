@@ -21,7 +21,7 @@ A paper wallet stores a new, randomly generated ripple secret key, represented a
 *This tutorial requires a higher level of technical knowledge.*
 
 1. Get a live linux distro such as TAILS (https://tails.boum.org/download/index.en.html) and burn to disk/usb. Verify the TAILS checksum.
-2. Get Ripply coldwallet.html file at https://github.com/ripplyeu/ripply-paper-wallet and put it on a disk/usb. Verify the coldwallet.html checksum.
+2. Get Ripply coldwallet.html file at https://github.com/ripplyeu/ripply-paper-wallet and put it on a disk/usb. Verify the coldwallet.html checksum. [Hint: wget https://raw.githubusercontent.com/ripply-eu/ripply-paper-wallet/master/coldwallet-SHA1-....html] 
 3. Unplug the internet and reboot your computer with TAILS disk loaded and log in.
 4. Open coldwallet.html in a web browser.
 5. Print the generated paper wallet. If you don't have a printer, store it on a dedicated USB that you will keep offline. Don't take photos or other backups.
