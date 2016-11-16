@@ -1,13 +1,13 @@
 #Ripply.eu
 
-## Paper Wallet Generator Build Instructions
+## Paper Wallet Generator Build Instructions for OS X and Linux
 Follow these instructions to manually build sensitive js code for the ripply paper wallet generator.
 
 Requirements:
 - [ripple-keypairs](https://github.com/ripple/ripple-keypairs)
 - [qrcodejs](https://github.com/davidshimjs/qrcodejs)
 
-To make ripple-keypairs work in the browser:
+Run these commands:
 * `git clone https://github.com/ripply-eu/ripply-paper-wallet`
 * `cd ripply-paper-wallet/build-yourself/`
 * `npm install ripple-keypairs qrcodejs`

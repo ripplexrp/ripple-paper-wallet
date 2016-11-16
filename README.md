@@ -21,12 +21,12 @@ A paper wallet stores a new, randomly generated ripple secret key, represented a
 *This tutorial requires a higher level of technical knowledge.*
 
 1. Get a live linux distro such as TAILS (https://tails.boum.org/download/index.en.html) and burn to disk/usb. Verify the TAILS checksum.
-2. Get Ripply coldwallet.html file at https://github.com/ripplyeu/ripply-paper-wallet and put it on a disk/usb. Verify the coldwallet.html checksum. [Hint: wget https://raw.githubusercontent.com/ripply-eu/ripply-paper-wallet/master/coldwallet-SHA1-....html] 
-3. Unplug the internet and reboot your computer with TAILS disk loaded and log in.
-4. Open coldwallet.html in a web browser.
-5. Print the generated paper wallet. If you don't have a printer, store it on a dedicated USB that you will keep offline. Don't take photos or other backups.
-6. You can save your ripple address whereever to conveniently monitor the balance on your paper wallet.
-7. Reboot, now you can send XRP to ripple address of the paper wallet
+2. Grab the latest Ripply coldwallet-SHA1-....html release file at https://github.com/ripply-eu/ripply-paper-wallet/releases and put it on a disk/USB. Verify the coldwallet-SHA1-....html file checksum. [Hint: `wget https://raw.githubusercontent.com/ripply-eu/ripply-paper-wallet/master/coldwallet-SHA1-....html`, `shasum coldwallet-SHA1-....html`] 
+3. Disconnect from internet and reboot your computer with TAILS disk loaded and log in.
+4. Open coldwallet html file in a reputable web browser such as Chrome or Firefox.
+5. Print the generated paper wallet. If you don't have a printer, store it on a dedicated USB that you will keep offline.
+6. You can save your ripple address (NOT the secret key) whereever to conveniently monitor the balance on your paper wallet.
+7. Reboot, now you can safely send XRP to ripple address of the paper wallet.
 
 
 ### How to create a ripple paper wallet online?
@@ -37,7 +37,7 @@ A paper wallet stores a new, randomly generated ripple secret key, represented a
 2. Copy the ripple address (NOT the secret key) and save it for later, to conveniently monitor the balance on your paper wallet
 3. Click "Print".
 4. Store the printed wallet in a safe place.
-5. Now you can send XRP to ripple address of the paper wallet
+5. Now you can send XRP to ripple address of the paper wallet.
 
 ### How to restore funds from a paper wallet.
 
