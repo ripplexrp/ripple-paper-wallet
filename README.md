@@ -4,17 +4,17 @@
 
 ### What is a ripple wallet?
 
-Ripple wallets look much like bitcoin wallets, they consist of public and private keys, however there are some key differences.
+Ripple wallets look similar to bitcoin wallets - they consist of public and private keys. There are however some key differences.
 
-Ripple wallets are deterministic by design and are derived from the ripple seed, which is also referred to as the "secret key" in the ripple world. A ripple wallet seed is nothing more than random bytes, usually represented as a string that starts with "s", here's an example: snoPBrXtMeMyMHUVTgbuqAfg1SUTb. One ripple seed is designed to be able to generate multiple private / public key pairs, however practically all ripple wallet implementations use one ripple seed per ripple address.
+Ripple wallets are deterministic by design and are derived from the wallet *seed*, which is also referred to as the *secret key* in the ripple world. A ripple wallet seed is nothing more than random bytes, represented as a string that starts with *s*. Here's an example of a wallet seed: *snoPBrXtMeMyMHUVTgbuqAfg1SUTb*. One ripple seed is designed to be able to generate multiple private / public key pairs, however practically all ripple wallet implementations use one ripple seed per ripple address.
 
-You'll already likely be familiar with the ripple address, which is where other people send ripple to you. A ripple address starts with the letter "r" and looks like this: rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B. Since the ripple address can be derived from the account seed, it is only crucial to backup the seed (secret key).
+You'll already likely be familiar with the ripple address, which is where other people send ripple to you. A ripple address starts with the letter *r* and looks like this: *rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B*. Since the ripple address can be mathematically derived from the account seed, it is only crucial to backup the wallet seed (secret key).
 
 ### What is a paper wallet?
 
-Paper wallets are secure backups of your ripple wallets. XRP on your ripple wallet is truly secure only when you have full control of your ripple secret key, and not a third party, such as GateHub, RippleTrade, etc...
+Paper wallets are secure backups of cryptocurrency wallets. XRP and other funds on your ripple wallet are truly secure only when you have full control of the ripple secret key. This means that the secret key is not kept at an online exchange or a third party service, such as Kraken, Bitstamp, GateHub, RippleTrade, etc...
 
-A paper wallet stores a new, randomly generated ripple secret key, represented as a string and as a QR code on paper. For convenience, a ripple address is also printed on a paper wallet. Paper wallets are meant to be stored offline in a safe place, such as a safe deposit box. Some people refer to this as "cold storage" or a "cold wallet". Paper wallets can either be generated securely in an offline environment or conveniently using an online paper wallet generator, which is a little bit less secure.
+A paper wallet stores a new, randomly generated ripple secret key, represented as a string and as a *QR code on paper*. For convenience, a ripple address is also printed on a paper wallet. Paper wallets are meant to be stored offline in a safe place, such as a safe deposit box. Some people refer to this as *cold storage* or as *cold wallet*. Paper wallets can either be generated securely in an offline environment or conveniently using an online paper wallet generator, which is a little bit less secure.
 
 ### How to create a ripple paper wallet offline?
 
