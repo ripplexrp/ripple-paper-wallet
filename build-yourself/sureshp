@@ -1,0 +1,6 @@
+
+    git clone https://github.com/ripply-eu/ripply-paper-wallet
+    cd ripply-paper-wallet/build-yourself/
+    npm install ripple-keypairs qrcodejs
+    browserify js/main.js -o js/bundle.js
+    cat node_modules/qrcodejs/qrcode.min.js >> js/bundle.js
